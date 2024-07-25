@@ -35,7 +35,7 @@ def print_info(name, age, gender, jobs):
 
 
 # 함수 호출과 파일 저장하기
-fd = open("member.txt","wt",encoding="utf-8")
+fd = open("member.txt", "wt", encoding="utf-8")
 while True:
     name = input("이름 입력 / 종료는 quit : ")
     if name == "quit": break
